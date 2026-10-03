@@ -1,0 +1,15 @@
+Part C — Concept Answers
+
+Question 1:
+Big-O focuses on how running time grows as n becomes large. 3n + 10 is O(n), while n^2 + 2 is O(n^2).
+Constants and lower-order terms are ignored because the dominant growth term determines long-run behavior.
+
+Question 2:
+Primitive data structures represent basic values such as integers, characters and booleans. Non-primitive
+structures organize collections and relationships, such as arrays, linked lists, stacks, queues, trees and graphs.
+For example, a student record can be organized as a structure/object containing roll number, name, marks and attendance.
+
+Question 3:
+Binary search needs sorted data because each comparison with the middle element determines which half can be
+discarded. On an unsorted array this decision is not valid. Sorting first typically costs O(n log n), after which
+binary search costs O(log n) per query.
